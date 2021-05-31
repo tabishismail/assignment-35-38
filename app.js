@@ -19,20 +19,12 @@
 
 // Assignment # 3
 
-function calc (){
-    var firstNum= +prompt("Enter first number");
-    var operation = prompt("Enter Operator (+,-,*,/)");
-    var secondNum= +prompt("Enter second number");
-    var result;
+var firstNum= +prompt("Enter first number");
+var secondNum= +prompt("Enter second number");
+function calc (a,b){
 
-        if(operation=== "+"){
-        result=firstNum + secondNum;
-        alert(result);
-        }
-    
-        else{
-        alert("invalid Action");
-        }
+    var result=a+b;
+    document.write(result);
 }
 
-calc()
+calc(firstNum,secondNum);
