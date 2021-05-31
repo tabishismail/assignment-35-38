@@ -31,29 +31,38 @@
 
 // Assignment # 4
 
-function calc (){
+// function calc (){
 
-    var firstNum= +prompt("Enter first number");
-    var oper = prompt("Enter operator (+,-,*,/");
-    var secondNum= +prompt("Enter second number");
-    var result;
-    if(oper=== "+"){
-        result=firstNum + secondNum;
-    }
-    else if(oper=== "-"){
-        result=firstNum - secondNum;
-    }
-    else if(oper=== "*"){
-        result=firstNum * secondNum;
-    }
-    else if(oper=== "/"){
-        result=firstNum / secondNum;
-    }
-    else{
-        alert("Invalid Input");
-    }
-        document.write(result);
-}
+//     var firstNum= +prompt("Enter first number");
+//     var oper = prompt("Enter operator (+,-,*,/");
+//     var secondNum= +prompt("Enter second number");
+//     var result;
+//     if(oper=== "+"){
+//         result=firstNum + secondNum;
+//     }
+//     else if(oper=== "-"){
+//         result=firstNum - secondNum;
+//     }
+//     else if(oper=== "*"){
+//         result=firstNum * secondNum;
+//     }
+//     else if(oper=== "/"){
+//         result=firstNum / secondNum;
+//     }
+//     else{
+//         alert("Invalid Input");
+//     }
+//         document.write(result);
+// }
 
-calc();
+// calc();
 
+// Assignment # 5
+
+// var result;
+// function squ(a) {
+//     result=a*a;
+//     document.write(result);
+// }
+// var num=+prompt("Enter Number to get squareroot");
+// squ(num);
