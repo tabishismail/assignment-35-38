@@ -126,12 +126,27 @@
 
 // Assignment # 9
 
-var first=+prompt("Enter Length ")
+// var first=+prompt("Enter Length ")
 
-var second=+prompt("Enter Height ")
-var res;
-function area(a,b){
-    res=(a*b)
-    document.write("area or rectangle is : "+res)
-}
-area(first,second)
+// var second=+prompt("Enter Height ")
+// var res;
+// function area(a,b){
+//     res=(a*b)
+//     document.write("area or rectangle is : "+res)
+// }
+// area(first,second);
+
+// Assignment # 10
+
+// function check(){
+//     var userInput=prompt("Enter Value");
+//     var check=userInput.split("").reverse().join("");
+//         if(userInput== check){
+//              document.write("Its a Palindrome word");
+//         }
+//         else{
+//             document.write("Its not a Palindrome word");
+//         }
+// }
+
+// check();
