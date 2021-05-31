@@ -69,13 +69,37 @@
 
 // Assignment # 6
 
-var num=+prompt("Enter a number for factorial")
-var res=1;
-function fact(a) {
-    for(var i=1;i<=num;i++){
-        res=res*i
-    }
-    document.write(res)
+// var num=+prompt("Enter a number for factorial")
+// var res=1;
+// function fact(a) {
+//     for(var i=1;i<=num;i++){
+//         res=res*i
+//     }
+//     document.write(res)
     
+// }
+// fact(a);
+
+// Assignment # 7
+
+var first=+prompt("First number")
+
+var last=+prompt("Last number")
+function num(){
+if(first<last){
+    for(var i=first;i<=last;i++){
+        var res=i
+        document.write(i+" ")
+    }
 }
-fact(a);
+else if(last<first){
+    for(var i=first;i>=last;i--){
+        var res=i
+        document.write(i+" ")
+    }
+}
+else{
+    alert("invalid input")
+}
+}
+num()
