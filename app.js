@@ -16,3 +16,23 @@
 //     alert("Hellow "+ firstName+" "+lastName+ " Welcome to our country");
 // }
 // greeting();
+
+// Assignment # 3
+
+function calc (){
+    var firstNum= +prompt("Enter first number");
+    var operation = prompt("Enter Operator (+,-,*,/)");
+    var secondNum= +prompt("Enter second number");
+    var result;
+
+        if(operation=== "+"){
+        result=firstNum + secondNum;
+        alert(result);
+        }
+    
+        else{
+        alert("invalid Action");
+        }
+}
+
+calc()
