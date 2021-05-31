@@ -82,24 +82,43 @@
 
 // Assignment # 7
 
-var first=+prompt("First number")
+// var first=+prompt("First number")
 
-var last=+prompt("Last number")
-function num(){
-if(first<last){
-    for(var i=first;i<=last;i++){
-        var res=i
-        document.write(i+" ")
-    }
-}
-else if(last<first){
-    for(var i=first;i>=last;i--){
-        var res=i
-        document.write(i+" ")
-    }
-}
-else{
-    alert("invalid input")
-}
-}
-num()
+// var last=+prompt("Last number")
+// function num(){
+// if(first<last){
+//     for(var i=first;i<=last;i++){
+//         var res=i
+//         document.write(i+" ")
+//     }
+// }
+// else if(last<first){
+//     for(var i=first;i>=last;i--){
+//         var res=i
+//         document.write(i+" ")
+//     }
+// }
+// else{
+//     alert("invalid input")
+// }
+// }
+// num();
+
+// Assignment # 8
+
+// var base=+prompt("Enter Base")
+
+// var perp=+prompt("Enter Perpendicular")
+// var hypo;
+// var res;
+// function first(){
+
+//     function inner(){
+//         hypo=((base*base)+(perp*perp))
+//     }
+//     inner()
+//      res = Math.sqrt(hypo);
+//     document.write(res)
+// }
+
+// first()
