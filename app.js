@@ -19,12 +19,41 @@
 
 // Assignment # 3
 
-var firstNum= +prompt("Enter first number");
-var secondNum= +prompt("Enter second number");
-function calc (a,b){
+// var firstNum= +prompt("Enter first number");
+// var secondNum= +prompt("Enter second number");
+// function calc (a,b){
 
-    var result=a+b;
-    document.write(result);
+//     var result=a+b;
+//     document.write(result);
+// }
+
+// calc(firstNum,secondNum);
+
+// Assignment # 4
+
+function calc (){
+
+    var firstNum= +prompt("Enter first number");
+    var oper = prompt("Enter operator (+,-,*,/");
+    var secondNum= +prompt("Enter second number");
+    var result;
+    if(oper=== "+"){
+        result=firstNum + secondNum;
+    }
+    else if(oper=== "-"){
+        result=firstNum - secondNum;
+    }
+    else if(oper=== "*"){
+        result=firstNum * secondNum;
+    }
+    else if(oper=== "/"){
+        result=firstNum / secondNum;
+    }
+    else{
+        alert("Invalid Input");
+    }
+        document.write(result);
 }
 
-calc(firstNum,secondNum);
+calc();
+
