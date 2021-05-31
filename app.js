@@ -66,3 +66,16 @@
 // }
 // var num=+prompt("Enter Number to get squareroot");
 // squ(num);
+
+// Assignment # 6
+
+var num=+prompt("Enter a number for factorial")
+var res=1;
+function fact(a) {
+    for(var i=1;i<=num;i++){
+        res=res*i
+    }
+    document.write(res)
+    
+}
+fact(a);
