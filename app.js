@@ -150,3 +150,16 @@
 // }
 
 // check();
+
+// Assignment # 11
+
+// function uppercase(str){
+//   var first = str.split(' ');
+//   var newarray = [];
+    
+//   for(var i = 0; i < first.length; i++){
+//       newarray.push(first[i].charAt(0).toUpperCase()+first[i].slice(1));
+//     }
+//   return newarray.join(' ');
+//     }
+// document.write(uppercase("the quick brown fox"));
